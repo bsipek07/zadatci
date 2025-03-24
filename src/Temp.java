@@ -7,7 +7,7 @@ public class Temp {
         Scanner input = new Scanner(System.in);
         System.out.println("Unesite temperaturu");
         double temp = input.nextDouble();
-        double kelvin = (temp*(1.8))+32;
+        double kelvin = (temp*((double) 9/5))+32;
         double farh = temp + 273.15;
 
 
